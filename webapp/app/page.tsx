@@ -20,11 +20,11 @@ export default function Home() {
           <h2 className="mb-4 text-2xl">Dance Class Schedule</h2>
           <p className="mb-2">(Alternating)</p>
           <ul className="space-y-2">
-            <li>Course On 1 in odd calendar weeks</li>
-            <li>Course On 2 in even calendar weeks</li>
+            <li>Class On 1 in odd calendar weeks</li>
+            <li>Class On 2 in even calendar weeks</li>
           </ul>
 
-          <h3 className="my-4 mb-2 text-xl">Course On 1:</h3>
+          <h3 className="my-4 mb-2 text-xl">Classes On 1:</h3>
           <div className='mb-2'>(Add Calendar links only work on desktop)</div>
           <ul className="space-y-2">
             <li>
@@ -74,7 +74,7 @@ export default function Home() {
             </li>
           </ul>
 
-          <h3 className="my-4 mb-2 text-xl">Course On 2:</h3>
+          <h3 className="my-4 mb-2 text-xl">Classes On 2:</h3>
           <ul className="space-y-2">
             <li>
               Friday 19:00 - Level 2:{' '}
