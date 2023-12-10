@@ -15,7 +15,7 @@ if [ $? -eq 0 ]; then
   git add ./out
 
   # Commit the changes
-  git commit --amend -m "Update build artifacts"
+  git commit --amend --no-edit
   
   git push origin main
   exit 0
