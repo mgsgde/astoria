@@ -21,8 +21,8 @@ export default function WeekType() {
   };
 
   return (
-    <h1 className="my-2 text-3xl font-bold">
-      Astoria: This week we dance <span className="weekType text-red-500">{weekType}</span>.
+    <h1 className="text-3xl font-bold">
+      Salsa Astoria: This week we dance <span className="weekType text-red-500">{weekType}</span>.
     </h1>
   );
 }
