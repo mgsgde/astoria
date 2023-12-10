@@ -7,7 +7,7 @@ const Video = dynamic(() => import('@/components/Video'), { ssr: false });
 
 export default function Home() {
   return (
-    <div className="my-5 flex justify-center">
+    <div className="my-5 flex justify-center px-5">
       <div className="flex max-w-xl flex-col justify-around gap-10">
         <div>
           <WeekType />
@@ -32,7 +32,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NmVlcnBjYzI0dDlsN3JkYzRlbzhqZmltM2ZfMjAyMzEyMjJUMTgwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
             <li>
@@ -41,7 +41,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDU0dXFlcjExaG1tNXNhYmZrNGs2Y2VyZzZfMjAyMzEyMjJUMTkwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
             <li>
@@ -50,7 +50,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=aW8zcXJuanQ2aWxjOWdsMm1vZWR0Nmx1bmxfMjAyMzEyMjJUMjAwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
             <li>
@@ -59,7 +59,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MWYzZHJucDl2NGhtaGY4cGIyZWhjZmQxZXRfMjAyMzEyMTBUMTYwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
             <li>
@@ -68,7 +68,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2ZudmZzbjdvOWplNDFtbXZ1anNvbTI2NWtfMjAyMzEyMTBUMTcwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
           </ul>
@@ -81,7 +81,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzA2dWY3cWl1c2FrOGo2cGo4OXU4OWxoYW9fMjAyMzEyMTVUMTgwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
             <li>
@@ -90,7 +90,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NW10djV1bjd0M3UzY3VhcmppdmN2cDNqZHBfMjAyMzEyMTVUMTkwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
             <li>
@@ -99,7 +99,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NXNiNjlnZmJxYXE5YTlpbjZvaTRnaWcxc2FfMjAyMzEyMTVUMjAwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
             <li>
@@ -108,7 +108,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MmljMGUxNDk0bThoM2FucjlxYm50Z2Y0MGdfMjAyMzEyMTdUMTYwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
             <li>
@@ -117,7 +117,7 @@ export default function Home() {
                 className="text-blue-500"
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y2JmdDc1djBxcjNoaHRubGFucDZ1ZHBjZmVfMjAyMzEyMTdUMTcwMDAwWiBtZ3NnZGVAbQ&tmsrc=mgsgde%40gmail.com&scp=ALL"
               >
-                <EventIcon /> Add to your calendar
+                <EventIcon /> Add
               </a>
             </li>
           </ul>
