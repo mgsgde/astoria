@@ -25,6 +25,7 @@ export default function Home() {
           </ul>
 
           <h3 className="my-4 mb-2 text-xl">Course On 1:</h3>
+          <div className='mb-2'>(Add Calendar links only work on desktop)</div>
           <ul className="space-y-2">
             <li>
               Friday 19:00 - Level 2:{' '}
